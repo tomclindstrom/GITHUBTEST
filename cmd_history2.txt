@@ -1,0 +1,50 @@
+echo > foo.dat
+git add foo.dat
+git commit -m "ny foo fil"
+git push
+cd ..
+dir
+cd 2
+dir
+cd testidag
+dir
+git add foo3.dat
+echo > foo3.dat
+git add foo3.dat
+git commit -m "test"
+git push
+cd ..
+cd 3
+dir
+cd GITHUBTEST
+dir
+git add cmd_history.txt
+git commit -m "cmd history"
+git push
+git status
+git pull
+git last
+git config --global user.name "tompcum"
+git config --global user.email "tom.prakticum.fi"
+cd ..
+dir
+cd GITHUBLEKTION
+dir
+git pull
+echo > foo2.dat
+git add foo2.dat
+git commit -m "Testar commit"
+git push
+cd ..
+dir
+cd 2
+dir
+cd testidag
+dir
+cd ..
+cd 3
+dir
+cd GITHUBTEST
+dir
+git add cmd_history2.txt
+doskey /h > cmd_history2.txt
