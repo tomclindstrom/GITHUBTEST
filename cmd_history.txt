@@ -1,0 +1,50 @@
+dir
+cd GITHUBLECTURE
+dir
+git clone https://github.com/prakticum2k/testidag.git
+dir
+dc testidag
+cd testidag
+dir
+echo > foo.dat
+dir
+git add foo.dat
+git commit -m "ny"
+git push
+cd ..
+dir
+cd ..
+dir
+cd testgithub
+dir
+cd GITHUBLEKTION
+dir
+git push
+dir
+cd ..
+mkdir 2
+cd 2
+git clone git@github.com:prakticum2k/testidag.git
+dir
+git clone https://github.com/prakticum2k/testidag.git
+dir
+cd testidag
+dir
+echo > foo2.dat
+add foo2.dat
+git add foo2.dat
+git commit -m "foo2"
+git push
+cd ..
+mkdir 3
+cd 3
+dir
+git clone https://github.com/tomclindstrom/GITHUBTEST.git
+cd GITHUBTEST
+dir
+echo > foo.dat
+git add .
+git commit -m "df"
+git push
+history
+doskey /h > cmd_history.txt
